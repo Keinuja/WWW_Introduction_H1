@@ -19,7 +19,7 @@ lisaysNappi.addEventListener(
     var ul = document.getElementById("lista");
     var li = document.createElement("alkio");
 
-    var teksti = document.getElementById("kentta").nodeValue;
+    var teksti = document.getElementById("kentta").value;
     var tekstiNode = document.createTextNode(teksti);
     var vaihto = document.createElement("br");
 
